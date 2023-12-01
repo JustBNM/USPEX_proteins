@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -o out
 #SBATCH -p cpu 
-#SBATCH -J a_1enh
+#SBATCH -J a_chignolin
 
 while [ ! -f ./USPEX_IS_DONE ]; do
    date >> log

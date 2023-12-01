@@ -24,14 +24,14 @@ C
 % EndAtomType
 
 % numSpecies
-54
+10
 % EndNumSpecies
 *************************
 *   RESTART SETTINGS    *
 *************************
 0   : pickUpYN
-47  : pickUpGen
-2   : pickUpFolder
+1   : pickUpGen
+1   : pickUpFolder
 *****************************************
 *   DETAILS OF AB INITIO CALCULATIONS   * 
 *****************************************
