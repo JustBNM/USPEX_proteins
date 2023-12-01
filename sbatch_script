@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH -o out
+#SBATCH -p cpu 
+#SBATCH -J a_1enh
+
+while [ ! -f ./USPEX_IS_DONE ]; do
+   date >> log
+   matlab < USPEX.m  >> log
+   sleep 200
+done
