@@ -29,7 +29,7 @@ for i=1:size(l,2)
       which_res = All_res(RandomIndex)
    end
    %which_res = randi([max(l(i),8), 49],1,1);
-   folder=['/home/prachitskiy/DB/' num2str(which_res) '_res'];
+   folder=['<INSERT YOUR ABSOLUTE PATH TO DB>/' num2str(which_res) '_res'];
    %folder=['./DB/' num2str(which_res) '_res'];
    all_pdb=dir(folder);
    try
